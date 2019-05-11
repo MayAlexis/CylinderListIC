@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.3154826522273822 0.9431545439134821 0.10454760848019636 5.607408579996006
-  position -0.8438505907545422 0.6600394798654836 1.3407009039577438
+  orientation 0.9996685678892171 0.02525411900630428 0.004998384492720525 5.892262689387253
+  position 0.10119028379725453 0.9443522285465863 1.77359169221106
 }
 TexturedBackground {
 }
@@ -20,7 +20,7 @@ DEF A1_CYL1 Solid {
       }
       geometry DEF G_CYL1 Cylinder {
         height 0.2
-        radius 0.05
+        radius 0.125
       }
     }
   ]
@@ -34,7 +34,7 @@ DEF A2_CYL2 Solid {
       }
       geometry DEF G_CYL2 Cylinder {
         height 0.25
-        radius 0.05
+        radius 0.1
       }
     }
   ]
@@ -49,7 +49,7 @@ DEF A3_CYL3 Solid {
       }
       geometry DEF G_CYL3 Cylinder {
         height 0.3
-        radius 0.05
+        radius 0.075
       }
     }
   ]
