@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.47015492994711017 0.8715487348259593 0.13912995604720554 0.6075994130631771
-  position 1.3630174178199927 0.9995783512330565 2.5682912398223405
+  orientation -0.9788231222950905 -0.1927734472644563 -0.06887447488197801 0.7797608811285488
+  position 0.11924826286218981 1.85910288487898 2.2107062574188916
 }
 TexturedBackground {
 }
@@ -11,7 +11,7 @@ TexturedBackgroundLight {
 }
 Floor {
 }
-Solid {
+DEF A1_CYL1 Solid {
   translation 0 0.1 0
   children [
     Shape {
@@ -24,4 +24,19 @@ Solid {
       }
     }
   ]
+}
+DEF A2_CYL2 Solid {
+  translation 0.3 0.125 0
+  children [
+    Shape {
+      appearance DEF A_2 PBRAppearance {
+        baseColor 0.20392156862745098 0.396078431372549 0.6431372549019608
+      }
+      geometry DEF G_CYL2 Cylinder {
+        height 0.25
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(1)"
 }
